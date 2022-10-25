@@ -29,53 +29,50 @@
   line-height: 26px;
   font-family: "inter" sans-serif !important;
 }
+
 .key_point_Quality {
+  display: flex;
   margin-top: 25px;
 }
-.key_point_Quality h6 {
-  font-weight: 600;
-  font-size: 20px;
+.icon_container {
+  width: 5vw;
 }
-.key_point_Quality span {
-  max-width: 40px;
-  vertical-align: top;
-  padding-right: 10px;
+.icon_container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.key_point_title {
+  display: flex;
+  width: 15vw;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+}
+.key_point_title span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c6b77;
+}
+.key_point_Insured {
+  display: flex;
+  margin-top: 25px;
 }
 
-.key_point_Insured {
-  margin-top: 25px;
-}
-.key_point_Insured h6 {
-  font-weight: 600;
-  font-size: 20px;
-}
-.key_point_Insured span {
-  max-width: 40px;
-  vertical-align: top;
-  padding-right: 25px;
-}
 .key_point_Skilled {
+  display: flex;
+  justify-items: center;
+  align-items: center;
   margin-top: 10px;
 }
-.key_point_Skilled h6 {
-  font-weight: 600;
-  font-size: 20px;
-}
-.key_point_Skilled span {
-  vertical-align: top;
-  padding-right: 20px;
-}
+
 .key_point_projects {
+  display: flex;
+  justify-items: center;
+  align-items: center;
   margin-top: 10px;
 }
-.key_point_projects h6 {
-  font-weight: 600;
-  font-size: 20px;
-}
-.key_point_projects span {
-  vertical-align: top;
-  padding-right: 10px;
-}
+
 @media screen and (max-width: 1090px) {
   .row_conatiner h2 {
     font-size: 48px;
@@ -96,6 +93,10 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .container {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
   .key_point_Quality h6 {
     font-size: 28px;
   }
@@ -107,5 +108,14 @@
   }
   .key_point_Insured {
     margin-top: 10px;
+  }
+  .icon_container {
+    width: 20vw;
+  }
+  .key_point_title {
+    width: 50vw;
+  }
+  .key_point_title span {
+    font-size: 24px;
   }
 }

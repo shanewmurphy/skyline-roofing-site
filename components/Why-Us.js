@@ -21,53 +21,50 @@ export default function WhyUs() {
                 <Grid.Container>
                   <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Quality}>
-                      <h6>
-                        <span>
-                          <img
-                            src="/Materials_icon.svg"
-                            alt="quality materials icon"
-                          />
-                        </span>
-                        Quality Materials
-                      </h6>
+                      <div className={styles.icon_container}>
+                        <img src="/Materials_icon.svg" alt="icon" />
+                      </div>
+                      <div className={styles.key_point_title}>
+                        <span>Quality Materials</span>
+                      </div>
                     </div>
                   </Grid>
                   <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Insured}>
-                      <h6>
-                        <span>
-                          <img src="/Cert_icon.svg" alt="Full Insured icon" />
-                        </span>
-                        Fully Insured
-                      </h6>
+                      <div className={styles.icon_container}>
+                        <img src="/Cert_icon.svg" alt="icon" />
+                      </div>
+                      <div className={styles.key_point_title}>
+                        <span>Fully Insured</span>
+                      </div>
                     </div>
                   </Grid>
                 </Grid.Container>
                 <Grid.Container>
                   <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Skilled}>
-                      <h6>
-                        <span>
-                          <img src="/Hat_icon.svg" />
-                        </span>
-                        Skilled Experts
-                      </h6>
+                      <div className={styles.icon_container}>
+                        <img src="/Hat_B_icon.svg" alt="icon" />
+                      </div>
+                      <div className={styles.key_point_title}>
+                        <span>Skilled Experts</span>
+                      </div>
                     </div>
                   </Grid>
                   <Grid xs={12} sm={6}>
                     <div className={styles.key_point_projects}>
-                      <h6>
-                        <span>
-                          <img src="/Projects_icon.svg" />
-                        </span>
-                        800 + Projects
-                      </h6>
+                      <div className={styles.icon_container}>
+                        <img src="/Projects_D_icon.svg" alt="icon" />
+                      </div>
+                      <div className={styles.key_point_title}>
+                        <span>800 + Completed</span>
+                      </div>
                     </div>
                   </Grid>
                 </Grid.Container>
               </div>
             </Grid>
-            <Grid xs={1} sm={1}></Grid>
+            <Grid xs={0} sm={1}></Grid>
             <Grid xs={12} sm={5}>
               <Image
                 showSkeleton

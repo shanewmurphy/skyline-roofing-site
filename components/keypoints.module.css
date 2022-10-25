@@ -3,7 +3,7 @@
   align-items: center;
   justify-items: center;
   width: 100vw;
-  height: 250px;
+  padding: 50px;
   background-color: var(--grey-blue);
 }
 .inner_key_points_container {
@@ -71,6 +71,6 @@
 }
 @media screen and (max-width: 480px) {
   .container {
-    height: 600px;
+    height: auto;
   }
 }
