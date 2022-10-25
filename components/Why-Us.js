@@ -24,7 +24,7 @@ export default function WhyUs() {
                       <h6>
                         <span>
                           <img
-                            src="/Qual_icon.svg"
+                            src="/Materials_icon.png"
                             alt="quality materials icon"
                           />
                         </span>
@@ -36,9 +36,31 @@ export default function WhyUs() {
                     <div className={styles.key_point_Insured}>
                       <h6>
                         <span>
-                          <img src="/Insured_icon.svg" />
+                          <img src="/Cert_icon.png" alt="Full Insured icon" />
                         </span>
                         Fully Insured
+                      </h6>
+                    </div>
+                  </Grid>
+                </Grid.Container>
+                <Grid.Container>
+                  <Grid xs={6} sm={6}>
+                    <div className={styles.key_point_Skilled}>
+                      <h6>
+                        <span>
+                          <img src="/Hat_icon.svg" />
+                        </span>
+                        Skilled Experts
+                      </h6>
+                    </div>
+                  </Grid>
+                  <Grid xs={6} sm={6}>
+                    <div className={styles.key_point_projects}>
+                      <h6>
+                        <span>
+                          <img src="/Projects_icon.svg" />
+                        </span>
+                        800 + Projects
                       </h6>
                     </div>
                   </Grid>

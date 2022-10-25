@@ -37,9 +37,11 @@
   font-size: 20px;
 }
 .key_point_Quality span {
+  max-width: 40px;
   vertical-align: top;
   padding-right: 10px;
 }
+
 .key_point_Insured {
   margin-top: 25px;
 }
@@ -48,6 +50,29 @@
   font-size: 20px;
 }
 .key_point_Insured span {
+  max-width: 40px;
+  vertical-align: top;
+  padding-right: 25px;
+}
+.key_point_Skilled {
+  margin-top: 10px;
+}
+.key_point_Skilled h6 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.key_point_Skilled span {
+  vertical-align: top;
+  padding-right: 20px;
+}
+.key_point_projects {
+  margin-top: 10px;
+}
+.key_point_projects h6 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.key_point_projects span {
   vertical-align: top;
   padding-right: 10px;
 }
@@ -68,5 +93,13 @@
   .row_conatiner {
     width: 96vw;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .key_point_Quality h6 {
+    font-size: 18px;
+  }
+  .key_point_Insured h6 {
+    font-size: 18px;
   }
 }

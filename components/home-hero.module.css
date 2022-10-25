@@ -74,6 +74,9 @@
   .hero_container {
     height: auto;
   }
+  .hero_img_container {
+    display: none;
+  }
   .hero_content_container h1 {
     font-size: 42px;
     line-height: 56px;
