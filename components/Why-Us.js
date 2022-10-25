@@ -18,26 +18,31 @@ export default function WhyUs() {
                   techniques and then use our own team of installation experts
                   to implement a lasting solution.
                 </p>
-                <div className={styles.list_row_icons}>
-                  <div className={styles.list_item}>
-                    <img src="./Qual_icon.svg" />
-                    <h6>Quality Materials</h6>
-                  </div>
-                  <div className={styles.list_item}>
-                    <img src="./Insured_icon.svg" />
-                    <h6>Fully Insured</h6>
-                  </div>
-                </div>
-                <div className={styles.list_row_icons}>
-                  <div className={styles.list_item}>
-                    <img src="./hard_hat_icon.svg" />
-                    <h6>Skilled Experts</h6>
-                  </div>
-                  <div className={styles.list_item}>
-                    <img src="./projects_icon.svg" />
-                    <h6>800 + Projects </h6>
-                  </div>
-                </div>
+                <Grid.Container>
+                  <Grid xs={6} sm={6}>
+                    <div className={styles.key_point_Quality}>
+                      <h6>
+                        <span>
+                          <img
+                            src="/Qual_icon.svg"
+                            alt="quality materials icon"
+                          />
+                        </span>
+                        Quality Materials
+                      </h6>
+                    </div>
+                  </Grid>
+                  <Grid xs={6} sm={6}>
+                    <div className={styles.key_point_Insured}>
+                      <h6>
+                        <span>
+                          <img src="/Insured_icon.svg" />
+                        </span>
+                        Fully Insured
+                      </h6>
+                    </div>
+                  </Grid>
+                </Grid.Container>
               </div>
             </Grid>
             <Grid xs={1} sm={1}></Grid>

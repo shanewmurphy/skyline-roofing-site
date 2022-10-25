@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 .row_conatiner h6 {
-  color: var(--grey-green);
+  color: #218b8a;
   font-size: 20px;
   font-weight: 500;
   margin: 0;
@@ -26,23 +26,30 @@
   font-size: 18px;
   font-weight: 500;
   color: var(--text-grey);
-  line-height: 24px;
+  line-height: 26px;
   font-family: "inter" sans-serif !important;
 }
-.list_row_icons {
-  display: flex;
-  align-items: flex-start;
-  width: 40vw;
+.key_point_Quality {
   margin-top: 25px;
 }
-.list_item {
-  display: flex;
-  align-items: flex-start;
-  width: 40vw;
-  margin: 0;
+.key_point_Quality h6 {
+  font-weight: 600;
+  font-size: 20px;
 }
-.list_item h6 {
-  padding-left: 15px;
+.key_point_Quality span {
+  vertical-align: top;
+  padding-right: 10px;
+}
+.key_point_Insured {
+  margin-top: 25px;
+}
+.key_point_Insured h6 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.key_point_Insured span {
+  vertical-align: top;
+  padding-right: 10px;
 }
 @media screen and (max-width: 1090px) {
   .row_conatiner h2 {
