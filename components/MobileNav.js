@@ -19,7 +19,7 @@ export default function MobileNav() {
               css={{ $$navbarTextColor: "#ffff" }}
             />
             <div className={styles.logo_container}>
-              <Image src="/Logo.svg" height="28" width={103} alt="Logo image" />
+              <Image src="/logo.svg" height="28" width={103} alt="Logo image" />
             </div>
           </Navbar.Brand>
           <Navbar.Content
