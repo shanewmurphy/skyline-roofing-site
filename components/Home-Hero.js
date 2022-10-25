@@ -1,6 +1,5 @@
 import styles from "./home-hero.module.css";
 import { Grid, Image } from "@nextui-org/react";
-
 export default function HomeHero() {
   return (
     <div className={styles.hero_container}>
@@ -18,7 +17,8 @@ export default function HomeHero() {
               <span>Call 085 233 5120</span>
             </div>
           </Grid>
-          <Grid xs={12} sm={6} md={6}>
+          <Grid xs={0} sm={1} md={1}></Grid>
+          <Grid xs={12} sm={5} md={5}>
             <Image
               showSkeleton
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666449363/Site%20Images/Hero_img_B_qz3tzc.png"

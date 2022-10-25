@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Grid } from "@nextui-org/react";
 import HomeHero from "@/components/Home-Hero";
-
+import WhyUs from "@/components/Why-Us";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,6 +14,40 @@ export default function Home() {
       </Head>
       <div>
         <HomeHero />
+      </div>
+      <div className={styles.grid_container}>
+        <div>
+          <Grid.Container gap={4} justify="center">
+            <Grid xs={12} sm={4}>
+              <div className={styles.col_A}>
+                <div>
+                  <h3>800</h3>
+                </div>
+                <div>
+                  <span>Projects completed</span>
+                </div>
+              </div>
+            </Grid>
+            <Grid xs={12} sm={4}>
+              <div className={styles.col_B}>
+                <div>
+                  <h3>35</h3>
+                </div>
+                <div>
+                  <span>in business</span>
+                </div>
+              </div>
+            </Grid>
+            <Grid xs={12} sm={4}>
+              <div className={styles.col_B}>
+                <img src="./trustpilot_logo.svg" alt="trustpilot Logo" />
+              </div>
+            </Grid>
+          </Grid.Container>
+        </div>
+      </div>
+      <div>
+        <WhyUs />
       </div>
     </div>
   );

@@ -27,9 +27,9 @@ export default function MobileNav() {
             hideIn="xs"
             variant="underline"
           ></Navbar.Content>
-          <Navbar.Content>
+          {/* <Navbar.Content>
             <Navbar.Item>Call Us:</Navbar.Item>
-          </Navbar.Content>
+          </Navbar.Content> */}
           <Navbar.Collapse
             css={{ $$navbarListBlurBackgroundColor: "#223b40", line: "#ffff" }}
           >

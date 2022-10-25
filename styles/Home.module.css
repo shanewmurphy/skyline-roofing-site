@@ -1,0 +1,56 @@
+.grid_container {
+  width: 100vw;
+  height: auto;
+  background-color: var(--grey-blue);
+  margin: 0 auto;
+}
+.col_A {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+}
+.col_A h3 {
+  font-size: 4rem;
+  height: 5rem;
+  font-weight: 600;
+  color: #414141;
+  margin: 0;
+}
+.col_A h3::after {
+  content: "+";
+  font-weight: 300;
+  font-size: 3rem;
+}
+.col_A span {
+  font-weight: 500;
+  font-size: 22px;
+  color: #414141;
+}
+.col_B {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.col_B h3 {
+  font-size: 4rem;
+  height: 5rem;
+  font-weight: 600;
+  color: #414141;
+  margin: 0;
+}
+.col_B h3::after {
+  content: "years";
+  font-size: 2rem;
+  padding-left: 5px;
+}
+.col_B span {
+  font-weight: 500;
+  font-size: 22px;
+  color: #414141;
+}
