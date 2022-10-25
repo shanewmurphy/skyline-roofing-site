@@ -19,12 +19,12 @@ export default function WhyUs() {
                   to implement a lasting solution.
                 </p>
                 <Grid.Container>
-                  <Grid xs={6} sm={6}>
+                  <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Quality}>
                       <h6>
                         <span>
                           <img
-                            src="/Materials_icon.png"
+                            src="/Materials_icon.svg"
                             alt="quality materials icon"
                           />
                         </span>
@@ -32,11 +32,11 @@ export default function WhyUs() {
                       </h6>
                     </div>
                   </Grid>
-                  <Grid xs={6} sm={6}>
+                  <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Insured}>
                       <h6>
                         <span>
-                          <img src="/Cert_icon.png" alt="Full Insured icon" />
+                          <img src="/Cert_icon.svg" alt="Full Insured icon" />
                         </span>
                         Fully Insured
                       </h6>
@@ -44,7 +44,7 @@ export default function WhyUs() {
                   </Grid>
                 </Grid.Container>
                 <Grid.Container>
-                  <Grid xs={6} sm={6}>
+                  <Grid xs={12} sm={6}>
                     <div className={styles.key_point_Skilled}>
                       <h6>
                         <span>
@@ -54,7 +54,7 @@ export default function WhyUs() {
                       </h6>
                     </div>
                   </Grid>
-                  <Grid xs={6} sm={6}>
+                  <Grid xs={12} sm={6}>
                     <div className={styles.key_point_projects}>
                       <h6>
                         <span>

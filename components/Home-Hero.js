@@ -17,9 +17,9 @@ export default function HomeHero() {
               <span>Call 085 233 5120</span>
             </div>
           </Grid>
-          <Grid xs={0} sm={1} md={1}></Grid>
+          <Grid xs={1} sm={1} md={1}></Grid>
           <Grid xs={12} sm={5} md={5}>
-            <div className={styles.hero_img_container}>
+            <div div className={styles.hero_img_container}>
               <Image
                 showSkeleton
                 src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666449363/Site%20Images/Hero_img_B_qz3tzc.png"

@@ -97,9 +97,15 @@
 }
 @media screen and (max-width: 480px) {
   .key_point_Quality h6 {
-    font-size: 18px;
+    font-size: 28px;
+  }
+  .key_point_Quality {
+    margin-top: 25px;
   }
   .key_point_Insured h6 {
-    font-size: 18px;
+    font-size: 28px;
+  }
+  .key_point_Insured {
+    margin-top: 10px;
   }
 }
