@@ -1,0 +1,21 @@
+.mobile_nav_container {
+  background-color: var(--green) !important;
+  display: none;
+}
+
+.mobile_nav_container a {
+  color: white;
+}
+.logo_container {
+  padding-left: 20px;
+}
+@media screen and (max-width: 650px) {
+  .mobile_nav_container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    margin: 0 auto;
+    background-color: var(--green) !important;
+  }
+}
