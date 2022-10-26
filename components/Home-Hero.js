@@ -20,6 +20,7 @@ export default function HomeHero() {
           <Grid xs={1} sm={1} md={1}></Grid>
           <Grid xs={12} sm={5} md={5}>
             <Image
+              className={styles.hide_img_mobile}
               showSkeleton
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666449363/Site%20Images/Hero_img_B_qz3tzc.png"
               width={525}

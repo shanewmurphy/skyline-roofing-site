@@ -31,7 +31,7 @@
   color: var(--text-grey);
   font-size: 18px;
   line-height: 26px;
-  margin-bottom: var(--margin-bottom-32);
+  margin-bottom: var(--margin-bottom-16);
 }
 @media screen and (max-width: 480px) {
   .container_about_us {

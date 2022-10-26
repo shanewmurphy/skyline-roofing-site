@@ -1,0 +1,127 @@
+.roof_nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+}
+.title h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2c6b77;
+  text-align: center;
+}
+.bottom_border {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  border-bottom: 1px solid #484b5a;
+}
+.border_tab {
+  border-right: 1px solid #484b5a;
+}
+.border_end {
+  border-left: 1px soild #484b5a;
+}
+.icon {
+  display: block;
+  width: 67px;
+  height: 56px;
+  background-image: url("../public/Flat_roofing.svg");
+  background-repeat: no-repeat;
+}
+.icon_pitched_roof {
+  display: block;
+  width: 67px;
+  height: 56px;
+  background-image: url("../public/Pitched_icon.svg");
+  background-repeat: no-repeat;
+}
+.icon_slate_roof {
+  display: block;
+  width: 106px;
+  height: 56px;
+  background-image: url("../public/Slate_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon_conservatory {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-image: url("../public/conserv_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon_repair {
+  display: block;
+  width: 62px;
+  height: 56px;
+  background-image: url("../public/repair_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon_fibre {
+  display: block;
+  width: 96px;
+  height: 54px;
+  background-image: url("../public/fibre_A_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tab_nav_link {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 26px;
+  color: #484b5a;
+  font-weight: 600;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 27vw;
+  background-color: transparent;
+  border: 2px solid #38687266;
+}
+
+a.tab_nav_link:link {
+  background-color: white;
+  border: 2px solid #38687266;
+}
+a.tab_nav_link:hover {
+  color: #2c6b77;
+  background-color: #f4f5fa;
+  border: 2px solid transparent;
+}
+
+.sec_row_tabs {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+@media screen and (max-width: 1090px) {
+  .tab_nav_link {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tab_nav_link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .tab_nav_link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tab_nav_link {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tab_nav_link {
+    width: 90vw;
+  }
+}

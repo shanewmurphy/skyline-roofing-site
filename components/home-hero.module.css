@@ -90,4 +90,7 @@
   .hero_content_container span {
     font-size: 36px;
   }
+  .hide_img_mobile {
+    display: none;
+  }
 }

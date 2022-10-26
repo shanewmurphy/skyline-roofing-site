@@ -6,6 +6,7 @@ import HomeHero from "@/components/Home-Hero";
 import KeyPoints from "@/components/Key-Points";
 import WhyUs from "@/components/Why-Us";
 import AboutUs from "@/components/About-Us";
+import RoofNav from "@/components/Roofs-nav";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -25,6 +26,9 @@ export default function Home() {
       </div>
       <div>
         <AboutUs />
+      </div>
+      <div>
+        <RoofNav />
       </div>
     </div>
   );
