@@ -6,6 +6,7 @@
 }
 .title h3 {
   font-size: 50px;
+  line-height: 72px;
   font-weight: 700;
   color: #2c6b77;
   text-align: center;
@@ -117,11 +118,11 @@ a.tab_nav_link:hover {
 }
 @media screen and (max-width: 768px) {
   .tab_nav_link {
-    width: 90vw;
+    width: 86vw;
   }
 }
 @media screen and (max-width: 480px) {
   .tab_nav_link {
-    width: 90vw;
+    width: 86vw;
   }
 }
