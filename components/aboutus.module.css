@@ -36,5 +36,9 @@
 @media screen and (max-width: 480px) {
   .container_about_us {
     width: 96vw;
+    padding: 40px 20px 70px 20px;
+  }
+  .container_about_us h2 {
+    font-size: 42px;
   }
 }
