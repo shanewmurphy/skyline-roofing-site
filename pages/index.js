@@ -5,6 +5,7 @@ import { Grid } from "@nextui-org/react";
 import HomeHero from "@/components/Home-Hero";
 import KeyPoints from "@/components/Key-Points";
 import WhyUs from "@/components/Why-Us";
+import AboutUs from "@/components/About-Us";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,6 +22,9 @@ export default function Home() {
       </div>
       <div>
         <WhyUs />
+      </div>
+      <div>
+        <AboutUs />
       </div>
     </div>
   );

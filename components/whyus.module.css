@@ -81,9 +81,30 @@
     width: 50vw;
   }
 }
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 960px) {
   .list_row_icons {
     width: 80vw;
+  }
+  .key_point_Quality h6 {
+    font-size: 28px;
+  }
+  .key_point_Quality {
+    margin-top: 25px;
+  }
+  .key_point_Insured h6 {
+    font-size: 28px;
+  }
+  .key_point_Insured {
+    margin-top: 10px;
+  }
+  .icon_container {
+    width: 10vw;
+  }
+  .key_point_title {
+    width: 50vw;
+  }
+  .key_point_title span {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -110,7 +131,7 @@
     margin-top: 10px;
   }
   .icon_container {
-    width: 20vw;
+    width: 10vw;
   }
   .key_point_title {
     width: 50vw;

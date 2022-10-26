@@ -1,0 +1,40 @@
+.container_about_us {
+  display: flex;
+  margin: 0 auto;
+  width: 90vw;
+  background-color: #f4f5fa;
+  padding: 50px;
+  border-radius: 12px;
+  margin-bottom: 125px;
+}
+.container_about_us h6 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #218b8a;
+  margin-bottom: 0;
+}
+.container_about_us h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #2c6b77;
+  margin-bottom: var(--margin-bottom-16);
+}
+.container_about_us h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #484b5a;
+}
+.container_about_us p {
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+  color: var(--text-grey);
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: var(--margin-bottom-32);
+}
+@media screen and (max-width: 480px) {
+  .container_about_us {
+    width: 96vw;
+  }
+}
