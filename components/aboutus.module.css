@@ -41,4 +41,7 @@
   .container_about_us h2 {
     font-size: 42px;
   }
+  .content_image img {
+    object-position: top !important;
+  }
 }

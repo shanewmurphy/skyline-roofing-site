@@ -24,6 +24,7 @@ export default function AboutUs() {
           <Grid xs={0} sm={1} md={1}></Grid>
           <Grid xs={12} sm={5} md={5}>
             <Image
+              className={styles.content_image}
               showSkeleton
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666779411/Site%20Images/about_us_niweqx.png"
               height={451}
