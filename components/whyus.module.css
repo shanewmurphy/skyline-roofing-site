@@ -139,4 +139,8 @@
   .key_point_title span {
     font-size: 24px;
   }
+  .image_container img {
+    object-position: top !important;
+    background-color: lightcoral;
+  }
 }

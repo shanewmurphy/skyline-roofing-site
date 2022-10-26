@@ -67,10 +67,12 @@ export default function WhyUs() {
             <Grid xs={0} sm={1}></Grid>
             <Grid xs={12} sm={5}>
               <Image
+                className={styles.image_container}
                 showSkeleton
                 src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666636493/Site%20Images/why_choose_qerzxq.png"
                 width={538}
                 height={475}
+                objectFit="scale-down"
               />
             </Grid>
           </Grid.Container>

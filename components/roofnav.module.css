@@ -122,6 +122,10 @@ a.tab_nav_link:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  .title h3 {
+    font-size: 42px;
+    line-height: 52px;
+  }
   .tab_nav_link {
     width: 86vw;
   }

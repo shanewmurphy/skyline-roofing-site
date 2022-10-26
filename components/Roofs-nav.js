@@ -1,5 +1,5 @@
 import styles from "./roofnav.module.css";
-import { Grid, Image, Row, Card } from "@nextui-org/react";
+import { Grid } from "@nextui-org/react";
 import Link from "next/link";
 export default function RoofNav() {
   return (
