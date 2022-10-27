@@ -56,7 +56,6 @@
   background-image: url("../public/Materials_B_Icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: lightcyan;
 }
 .Insured_icon {
   display: block;
@@ -91,15 +90,25 @@
     width: 50vw;
   }
 }
-@media screen and (max-width: 960px) {
-}
+
 @media screen and (max-width: 768px) {
   .row_conatiner {
     width: 96vw;
     margin: 0 auto;
   }
+  .material_icon,
+  .Insured_icon,
+  .Skilled_icon,
+  .Skilled_icon {
+    width: 50px;
+    height: 50px;
+  }
 }
 @media screen and (max-width: 480px) {
+  .row_conatiner h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
   .container {
     margin-top: 50px;
     margin-bottom: 0;
@@ -111,8 +120,15 @@
   .key_highlight h5 {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 17px;
     color: #2c6b77;
     font-weight: 600;
+  }
+  .material_icon,
+  .Insured_icon,
+  .Skilled_icon,
+  .Skilled_icon {
+    width: 50px;
+    height: 50px;
   }
 }

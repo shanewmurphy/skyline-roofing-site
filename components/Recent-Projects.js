@@ -28,10 +28,13 @@ export default function RecentProjects() {
   return (
     <div>
       <div className={styles.title}>
-        <h3>Our Latest Projectsssss</h3>
+        <h3>Our Latest Projects</h3>
       </div>
       <div className={styles.photo_container}>
         <PhotoAlbum layout="masonry" columns={2} photos={photos} />
+      </div>
+      <div className={styles.mobile_photo_container}>
+        <PhotoAlbum layout="masonry" columns={1} photos={photos} />
       </div>
     </div>
   );

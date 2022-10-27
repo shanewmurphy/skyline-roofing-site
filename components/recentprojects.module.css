@@ -9,6 +9,12 @@
   margin: 0 auto;
   margin-bottom: 125px;
 }
+.mobile_photo_container {
+  display: none;
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
 .recent_projects_sec_row_container {
   display: flex;
   width: 90vw;
@@ -24,4 +30,12 @@
 }
 .img_padding {
   padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .photo_container {
+    display: none;
+  }
+  .mobile_photo_container {
+    display: block;
+  }
 }

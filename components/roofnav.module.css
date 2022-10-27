@@ -1,3 +1,6 @@
+.show_hide {
+  display: block;
+}
 .roof_nav_container {
   display: flex;
   justify-content: space-between;
@@ -122,6 +125,9 @@ a.tab_nav_link:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  .show_hide {
+    display: none;
+  }
   .title h3 {
     font-size: 42px;
     line-height: 52px;

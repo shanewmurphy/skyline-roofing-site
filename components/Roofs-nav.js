@@ -3,7 +3,7 @@ import { Grid } from "@nextui-org/react";
 import Link from "next/link";
 export default function RoofNav() {
   return (
-    <div>
+    <div className={styles.show_hide}>
       <div className={styles.title}>
         <h3>We’re providing quality roofing services</h3>
       </div>

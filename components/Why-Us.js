@@ -43,7 +43,7 @@ export default function WhyUs() {
                     <Col>
                       <div className={styles.key_highlight}>
                         <h5>
-                          <span className={styles.Insured_icon}></span>
+                          <span className={styles.Skilled_icon}></span>
                           Skilled Experts
                         </h5>
                       </div>
