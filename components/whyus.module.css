@@ -28,49 +28,58 @@
   color: var(--text-grey);
   line-height: 26px;
   font-family: "inter" sans-serif !important;
+  margin-bottom: var(--margin-bottom-16);
 }
 
-.key_point_Quality {
+.icons {
   display: flex;
-  margin-top: 25px;
 }
-.icon_container {
-  width: 5vw;
+.icons ul {
+  display: contents;
 }
-.icon_container img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.key_point_title {
-  display: flex;
-  width: 15vw;
-  height: 50px;
-  justify-items: center;
-  align-items: center;
-}
-.key_point_title span {
-  font-size: 20px;
-  font-weight: 600;
+.icon li {
+  font-size: 35px;
   color: #2c6b77;
+  font-weight: 600;
 }
-.key_point_Insured {
+.key_highlight h5 {
   display: flex;
-  margin-top: 25px;
-}
-
-.key_point_Skilled {
-  display: flex;
-  justify-items: center;
   align-items: center;
-  margin-top: 10px;
+  font-size: 22px;
+  color: #2c6b77;
+  font-weight: 600;
 }
-
-.key_point_projects {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-top: 10px;
+.material_icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../public/Materials_B_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Insured_icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../public/Cert_B_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Skilled_icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../public/Hat_B_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Projects_icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../public/Projects_B_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1090px) {
@@ -82,30 +91,6 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .list_row_icons {
-    width: 80vw;
-  }
-  .key_point_Quality h6 {
-    font-size: 28px;
-  }
-  .key_point_Quality {
-    margin-top: 25px;
-  }
-  .key_point_Insured h6 {
-    font-size: 28px;
-  }
-  .key_point_Insured {
-    margin-top: 10px;
-  }
-  .icon_container {
-    width: 10vw;
-  }
-  .key_point_title {
-    width: 50vw;
-  }
-  .key_point_title span {
-    font-size: 24px;
-  }
 }
 @media screen and (max-width: 768px) {
   .row_conatiner {
@@ -118,28 +103,15 @@
     margin-top: 50px;
     margin-bottom: 0;
   }
-  .key_point_Quality h6 {
-    font-size: 28px;
-  }
-  .key_point_Quality {
-    margin-top: 25px;
-  }
-  .key_point_Insured h6 {
-    font-size: 28px;
-  }
-  .key_point_Insured {
-    margin-top: 10px;
-  }
-  .icon_container {
-    width: 10vw;
-  }
-  .key_point_title {
-    width: 50vw;
-  }
-  .key_point_title span {
-    font-size: 24px;
-  }
+
   .image_container img {
     object-position: top !important;
+  }
+  .key_highlight h5 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #2c6b77;
+    font-weight: 600;
   }
 }

@@ -1,5 +1,5 @@
 import styles from "./whyus.module.css";
-import { Grid, Image, Spacer } from "@nextui-org/react";
+import { Grid, Image, Container, Row, Col } from "@nextui-org/react";
 
 export default function WhyUs() {
   return (
@@ -18,50 +18,46 @@ export default function WhyUs() {
                   techniques and then use our own team of installation experts
                   to implement a lasting solution.
                 </p>
-                <Grid.Container>
-                  <Grid xs={12} sm={6} md={6}>
-                    <div className={styles.key_point_Quality}>
-                      <div className={styles.icon_container}>
-                        <img src="/Materials_icon.svg" alt="icon" />
+                <Container gap={0}>
+                  <Row>
+                    <Col>
+                      <div className={styles.key_highlight}>
+                        <h5>
+                          <span className={styles.material_icon}></span>
+                          Quality Materials
+                        </h5>
                       </div>
-                      <div className={styles.key_point_title}>
-                        <span>Quality Materials</span>
+                    </Col>
+                    <Col>
+                      <div className={styles.key_highlight}>
+                        <h5>
+                          <span className={styles.Insured_icon}></span>
+                          Fully Insured
+                        </h5>
                       </div>
-                    </div>
-                  </Grid>
-                  <Grid xs={12} sm={6} md={6}>
-                    <div className={styles.key_point_Insured}>
-                      <div className={styles.icon_container}>
-                        <img src="/Cert_icon.svg" alt="icon" />
+                    </Col>
+                  </Row>
+                </Container>
+                <Container gap={0}>
+                  <Row>
+                    <Col>
+                      <div className={styles.key_highlight}>
+                        <h5>
+                          <span className={styles.Insured_icon}></span>
+                          Skilled Experts
+                        </h5>
                       </div>
-                      <div className={styles.key_point_title}>
-                        <span>Fully Insured</span>
+                    </Col>
+                    <Col>
+                      <div className={styles.key_highlight}>
+                        <h5>
+                          <span className={styles.Projects_icon}></span>
+                          800 + Projects
+                        </h5>
                       </div>
-                    </div>
-                  </Grid>
-                </Grid.Container>
-                <Grid.Container>
-                  <Grid xs={12} sm={6}>
-                    <div className={styles.key_point_Skilled}>
-                      <div className={styles.icon_container}>
-                        <img src="/Hat_B_icon.svg" alt="icon" />
-                      </div>
-                      <div className={styles.key_point_title}>
-                        <span>Skilled Experts</span>
-                      </div>
-                    </div>
-                  </Grid>
-                  <Grid xs={12} sm={6}>
-                    <div className={styles.key_point_projects}>
-                      <div className={styles.icon_container}>
-                        <img src="/Projects_D_icon.svg" alt="icon" />
-                      </div>
-                      <div className={styles.key_point_title}>
-                        <span>800 + Completed</span>
-                      </div>
-                    </div>
-                  </Grid>
-                </Grid.Container>
+                    </Col>
+                  </Row>
+                </Container>
               </div>
             </Grid>
             <Grid xs={0} sm={1}></Grid>

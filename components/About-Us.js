@@ -27,7 +27,7 @@ export default function AboutUs() {
               className={styles.content_image}
               showSkeleton
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666779411/Site%20Images/about_us_niweqx.png"
-              height={451}
+              height={360}
               width={546}
             />
           </Grid>
