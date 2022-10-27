@@ -56,6 +56,7 @@
   background-image: url("../public/Materials_B_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: lightcyan;
 }
 .Insured_icon {
   display: block;
