@@ -28,7 +28,7 @@ export default function RecentProjects() {
   return (
     <div>
       <div className={styles.title}>
-        <h3>Our Latest Projects</h3>
+        <h3>Our Latest Projectsssss</h3>
       </div>
       <div className={styles.photo_container}>
         <PhotoAlbum layout="masonry" columns={2} photos={photos} />
