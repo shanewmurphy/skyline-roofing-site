@@ -1,0 +1,84 @@
+.testimonials_container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+.title h3 {
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 700;
+  color: #2c6b77;
+  text-align: center;
+}
+.card_container {
+  display: flex;
+  width: 37vw;
+  margin: 0 auto;
+  height: 450px;
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0.8px 2.3px 1.9px rgba(0, 0, 0, 0.008),
+    1.8px 4.9px 4.3px rgba(0, 0, 0, 0.011), 3px 7.9px 7.7px rgba(0, 0, 0, 0.014),
+    4.4px 11.7px 12.8px rgba(0, 0, 0, 0.016),
+    6.2px 16.6px 21.2px rgba(0, 0, 0, 0.019),
+    8.7px 23.2px 37px rgba(0, 0, 0, 0.022), 12px 32px 80px rgba(0, 0, 0, 0.03);
+
+  background-color: white;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  padding: 30px;
+}
+.testimonal_content h4 {
+  width: 30vw;
+  margin: 0 auto;
+  color: #218b8a;
+  text-align: center;
+}
+.testimonal_content h5 {
+  width: 30vw;
+  margin: 0 auto;
+  color: #484b5a;
+  text-align: center;
+}
+.testimonal_content h6 {
+  text-align: center;
+  margin-top: 16px;
+}
+.testimonal_content p {
+  margin-top: 12px;
+  text-align: center;
+  color: #484b5a;
+}
+.trustpilot_logo_container {
+  display: flex;
+  margin: 0 auto;
+  width: 10vw;
+  justify-items: center;
+}
+@media screen and (max-width: 1140px) {
+  .card_container {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .card_container {
+    width: 70vw;
+    height: 430px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title h3 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .testimonal_content h4 {
+    width: 40vw;
+  }
+  .testimonal_content h5 {
+    width: 60vw;
+  }
+  .card_container {
+    width: 70vw;
+    height: 550px;
+  }
+}

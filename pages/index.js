@@ -8,6 +8,8 @@ import WhyUs from "@/components/Why-Us";
 import AboutUs from "@/components/About-Us";
 import RoofNav from "@/components/Roofs-nav";
 import RecentProjects from "@/components/Recent-Projects";
+import TestimonialCard from "@/components/Testimonial-Card";
+import CTAbanner from "@/components/CTA/Contact-banner";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -29,10 +31,16 @@ export default function Home() {
         <AboutUs />
       </div>
       <div>
+        <CTAbanner />
+      </div>
+      <div>
         <RoofNav />
       </div>
       <div>
         <RecentProjects />
+      </div>
+      <div>
+        <TestimonialCard />
       </div>
     </div>
   );
