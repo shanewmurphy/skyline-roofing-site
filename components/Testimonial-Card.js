@@ -51,16 +51,7 @@ const testimonals = [
     url: "https://res.cloudinary.com/dhdrlpifx/image/upload/v1666950728/Site%20Images/trustpilot_logo_zqrp4a.svg",
   },
 ];
-[
-  {
-    breakpoint: 880,
-    cols: 1,
-    rows: 1,
-    gap: 10,
-    loop: true,
-    autoplay: 1000,
-  },
-];
+
 export default function TestimonialCard() {
   return (
     <div>
@@ -69,7 +60,27 @@ export default function TestimonialCard() {
       </div>
       <div>
         <div className={styles.testimonials_container}>
-          <Carousel cols={2} rows={1} gap={20} showDots loop>
+          <Carousel
+            cols={2}
+            rows={1}
+            gap={20}
+            showDots
+            loop
+            responsiveLayout={[
+              {
+                breakpoint: 800,
+                cols: 1,
+                gap: 50,
+                loop: true,
+              },
+              {
+                breakpoint: 420,
+                cols: 1,
+                gap: 50,
+                loop: true,
+              },
+            ]}
+          >
             {testimonals.map((testimonals) => {
               return (
                 <Carousel.Item key={testimonals.id}>

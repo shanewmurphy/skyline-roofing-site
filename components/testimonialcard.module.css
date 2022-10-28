@@ -60,10 +60,16 @@
     height: 500px;
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 800px) {
   .card_container {
     width: 70vw;
-    height: 430px;
+    height: 550px;
+  }
+  .testimonal_content h4 {
+    width: 50vw;
+  }
+  .testimonal_content h5 {
+    width: 60vw;
   }
 }
 @media screen and (max-width: 480px) {
@@ -79,6 +85,22 @@
   }
   .card_container {
     width: 70vw;
-    height: 550px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .title h3 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .testimonal_content h4 {
+    width: 40vw;
+  }
+  .testimonal_content h5 {
+    width: 60vw;
+  }
+  .card_container {
+    width: 80vw;
+    height: 600px;
   }
 }
