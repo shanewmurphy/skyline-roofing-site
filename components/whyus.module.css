@@ -45,9 +45,9 @@
 .key_highlight h5 {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 20px;
   color: #2c6b77;
-  font-weight: 600;
+  font-weight: 500;
 }
 .material_icon {
   display: block;

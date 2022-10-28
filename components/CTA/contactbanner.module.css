@@ -2,5 +2,48 @@
   display: flex;
   width: 90vw;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color: #223b40;
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 125px;
+  box-shadow: rgba(31, 86, 76, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.main_container h4 {
+  font-weight: 500;
+  color: white;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0;
+}
+.main_container h5 {
+  font-weight: 600;
+  color: white;
+  font-size: 42px;
+  line-height: 42px;
+}
+.main_container h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+a.email_link {
+  font-size: 24px;
+  color: #a5d874;
+}
+a.email_link:hover {
+  color: white;
+}
+.icon_call {
+  width: 12%;
+  background-image: url("../../public/Call_icon.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.icon_email {
+  width: 12%;
+  background-image: url("../../public/Email_icon.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
