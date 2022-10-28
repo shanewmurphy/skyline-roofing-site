@@ -72,7 +72,7 @@ export default function TestimonialCard() {
           <Carousel cols={2} rows={1} gap={20} showDots loop>
             {testimonals.map((testimonals) => {
               return (
-                <Carousel.Item>
+                <Carousel.Item key={testimonals.id}>
                   <div className={styles.card_container}>
                     <div className={styles.testimonal_content}>
                       <div>
