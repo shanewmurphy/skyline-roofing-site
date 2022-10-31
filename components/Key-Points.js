@@ -10,7 +10,7 @@ export default function KeyPoints() {
             <Grid xs={12} sm={4}>
               <div className={styles.key_col_A_container}>
                 <h3>800</h3>
-                <span>Projects completed</span>
+                <span>projects completed</span>
               </div>
             </Grid>
             <Grid xs={12} sm={4}>

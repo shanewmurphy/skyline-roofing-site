@@ -1,5 +1,5 @@
 import styles from "./contactbanner.module.css";
-import { Grid, Col, Spacer } from "@nextui-org/react";
+import { Grid, Col } from "@nextui-org/react";
 
 export default function CTAbanner() {
   return (
@@ -12,7 +12,6 @@ export default function CTAbanner() {
               <h4>Call Us Today</h4>
               <h5>085 233 5120</h5>
             </div>
-            <Spacer y={1} />
           </Grid>
           <Grid xs={12} sm={6} justify="center">
             <Col className={styles.icon_email}></Col>
