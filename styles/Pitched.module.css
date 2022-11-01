@@ -1,0 +1,30 @@
+.pitched_roof_container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+.pitched_roof_container h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #21a179;
+}
+.pitched_roof_container p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #484b5a;
+  margin-bottom: 16px;
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+.container h4 {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+  color: #484b5a;
+  margin-bottom: 125px;
+}

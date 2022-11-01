@@ -1,6 +1,5 @@
 import styles from "./recentprojects.module.css";
 import PhotoAlbum from "react-photo-album";
-import { Grid, Image } from "@nextui-org/react";
 const photos = [
   {
     src: "https://res.cloudinary.com/dhdrlpifx/image/upload/v1666812770/Site%20Images/recent_img_01_hlnws3.jpg",

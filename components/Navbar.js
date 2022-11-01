@@ -57,7 +57,7 @@ export default function Nav() {
                   </Dropdown.Button>
                   <Dropdown.Menu css={{ $$dropdownMenuWidth: "180px" }}>
                     <Dropdown.Item>
-                      <Link href="/about">Pitch Roofs</Link>
+                      <Link href="/Pitched">Pitch Roofs</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link href="/about">Flat Roofs</Link>
