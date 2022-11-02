@@ -22,7 +22,7 @@ export default function Nav() {
           <div className={styles.nav_links_container}>
             <ul>
               <li>
-                <Link href="/about">
+                <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
@@ -60,7 +60,7 @@ export default function Nav() {
                       <Link href="/Pitched">Pitch Roofs</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
-                      <Link href="/about">Flat Roofs</Link>
+                      <Link href="/Flat">Flat Roofs</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link href="/about">Slate Roofs</Link>
