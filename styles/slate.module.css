@@ -1,0 +1,37 @@
+.outer_container {
+  width: 100vw;
+  height: 500px;
+  background-color: var(--green);
+}
+.inner_container {
+  display: flex;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 20px 75px 90px 75px;
+}
+.slate_container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+.slate_container h4 {
+  font-size: 40px;
+  color: #21a179;
+}
+.slate_container p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #484b5a;
+  margin-bottom: 16px;
+}
+.Contact_banner {
+  width: 90vw;
+  margin: 0 auto;
+}
+.slate_project_container {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: lightcoral;
+}

@@ -1,0 +1,26 @@
+.title h3 {
+  font-size: 55px;
+  color: #2c6b77;
+  font-weight: 600;
+  text-align: center;
+}
+.photo_container {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+.mobile_photo_container {
+  display: none;
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+@media screen and (max-width: 768px) {
+  .photo_container {
+    display: none;
+  }
+  .mobile_photo_container {
+    display: block;
+  }
+}

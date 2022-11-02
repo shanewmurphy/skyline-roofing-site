@@ -29,3 +29,15 @@
   font-size: 18px;
   margin-bottom: var(--margin-bottom-16);
 }
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 40px 10px 10px 10px;
+  }
+  .container h2 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .container h6 {
+    font-size: 22px;
+  }
+}
