@@ -29,8 +29,8 @@ export default function Hero() {
             <Grid xs={12} sm={5} md={5}>
               <Image
                 showSkeleton
-                src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667484167/Site%20Images/Repairs_hero_mypm3d.png"
-                height={140}
+                src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667484751/Site%20Images/Repairs_hero_qbmw6o.png"
+                height={450}
                 width={530}
                 alt="Skyline Roofing, Roofing repairs, roofing contractors Cork, Ireland"
               />
