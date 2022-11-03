@@ -66,10 +66,10 @@ export default function Nav() {
                       <Link href="/Slate">Slate Roofs</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
-                      <Link href="/about">Conservatory</Link>
+                      <Link href="/Conservatory">Conservatory</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
-                      <Link href="/about">Roofs Repairs</Link>
+                      <Link href="/Repair">Roofs Repairs</Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link href="/about">Fibreglass Roofs</Link>

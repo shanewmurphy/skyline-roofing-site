@@ -1,0 +1,35 @@
+.three_card_container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+.card h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2c6b77;
+  text-align: center;
+  margin-top: 16px;
+}
+.card p {
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #484b5a;
+  font-weight: 500;
+}
+.card_body {
+  display: flex;
+  text-align: center;
+  padding: 15px 30px 50px 30px;
+}
+.card_styles h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #21a179;
+  text-align: center;
+  margin-top: 16px;
+}
+.card_styles:nth-child(2) {
+  margin-bottom: 125px;
+}
