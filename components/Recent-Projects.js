@@ -2,6 +2,16 @@ import styles from "./recentprojects.module.css";
 import PhotoAlbum from "react-photo-album";
 const photos = [
   {
+    src: "https://res.cloudinary.com/dhdrlpifx/image/upload/v1667571811/Site%20Images/Slate_01A_vnrqzl.jpg",
+    width: 642,
+    height: 325,
+  },
+  {
+    src: "https://res.cloudinary.com/dhdrlpifx/image/upload/v1667571927/Site%20Images/Slate_02A_jpkgv7.jpg",
+    width: 642,
+    height: 325,
+  },
+  {
     src: "https://res.cloudinary.com/dhdrlpifx/image/upload/v1666812770/Site%20Images/recent_img_01_hlnws3.jpg",
     width: 748,
     height: 325,

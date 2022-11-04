@@ -26,7 +26,8 @@
   font-size: 50px;
   font-weight: 700;
   margin: 0;
-  color: #2c6b77;
+  color: #1b116d;
+  margin-bottom: var(--margin-bottom-16);
 }
 .img_padding {
   padding: 20px;

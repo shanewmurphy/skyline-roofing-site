@@ -1,7 +1,7 @@
 .hero_container {
   width: 100vw;
   height: 600px;
-  background-color: var(--green);
+  background-color: #1c116d;
 }
 .hero_content_container {
   width: 90vw;
@@ -11,15 +11,15 @@
 .hero_content_container h1 {
   display: block;
   font-size: 60px;
-  color: var(--text-green);
+  color: white;
   font-weight: var(--font-weight-bold);
-  line-height: 70px;
-  margin-bottom: var(--margin-bottom-32);
+  line-height: 62px;
+  margin-bottom: var(--margin-bottom-16);
 }
 .hero_content_container span {
   font-weight: 600;
   font-size: 42px;
-  color: var(--lime-green);
+  color: #f47050;
   display: block;
 }
 .hero_content_container h4 {
@@ -27,11 +27,18 @@
   line-height: 32px;
   font-weight: 500;
   color: white;
-  margin-bottom: var(--margin-bottom-32);
+  margin-bottom: var(--margin-bottom-16);
 }
 .hero_content_container h3 {
+  font-size: 32px;
   margin: 0;
   color: white;
+}
+.hero_content_container p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: var(--margin-bottom-32);
 }
 .CTA_container {
   display: flex;

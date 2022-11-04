@@ -9,9 +9,8 @@ export default function HomeHero() {
             <div>
               <h1>Whatever the job, Skyline Roofing has you covered</h1>
               <h4>
-                Skyline Roofing is the name you can trust to put a roof over
-                your head. We provide a nationwide service all covered by an
-                insurance-backed guarantee.
+                When you are seeking a slate roofing company in Dublin or Cork,
+                you will be happy for having placed your order with us.
               </h4>
               <h3>Get your free No obligation quote</h3>
               <span>Call 085 233 5120</span>
@@ -22,9 +21,9 @@ export default function HomeHero() {
             <Image
               className={styles.hide_img_mobile}
               showSkeleton
-              src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666449363/Site%20Images/Hero_img_B_qz3tzc.png"
-              width={525}
-              height={483}
+              src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667560205/Site%20Images/Home_hero_i9xbec.png"
+              width={530}
+              height={545}
               alt="skyline chadding roofing"
             />
           </Grid>

@@ -11,7 +11,7 @@ export default function RoofNav() {
         <Grid.Container justify="center">
           <Grid xs={12} sm={4} md={4}>
             <div className={styles.border}>
-              <Link href="/about">
+              <Link href="/Flat">
                 <a className={styles.tab_nav_link}>
                   <span className={styles.icon}></span>Flat Roofs
                 </a>
@@ -20,7 +20,7 @@ export default function RoofNav() {
           </Grid>
           <Grid xs={12} sm={4}>
             <div className={styles.border}>
-              <Link href="/about">
+              <Link href="/Pitched">
                 <a className={styles.tab_nav_link}>
                   <span className={styles.icon_pitched_roof}></span>Pitched
                   Roofs
@@ -30,7 +30,7 @@ export default function RoofNav() {
           </Grid>
           <Grid xs={12} sm={4}>
             <div>
-              <Link href="/about">
+              <Link href="/Slate">
                 <a className={styles.tab_nav_link}>
                   <span className={styles.icon_slate_roof}></span>Slate Roofs
                 </a>
@@ -44,7 +44,7 @@ export default function RoofNav() {
           <Grid.Container>
             <Grid xs={12} sm={4}>
               <div>
-                <Link href="/about">
+                <Link href="/Conservatory">
                   <a className={styles.tab_nav_link}>
                     <span className={styles.icon_conservatory}></span>
                     Conservatory Roofs
@@ -54,7 +54,7 @@ export default function RoofNav() {
             </Grid>
             <Grid xs={12} sm={4}>
               <div>
-                <Link href="/about">
+                <Link href="/Repair">
                   <a className={styles.tab_nav_link}>
                     <span className={styles.icon_repair}></span>Repair Roof
                   </a>
@@ -63,7 +63,7 @@ export default function RoofNav() {
             </Grid>
             <Grid xs={12} sm={4}>
               <div>
-                <Link href="/about">
+                <Link href="/Fibreglass">
                   <a className={styles.tab_nav_link}>
                     <span className={styles.icon_fibre}></span>Fibreglass Roofs
                   </a>

@@ -2,7 +2,7 @@
   width: 100vw;
   margin: auto;
   height: 80px;
-  background-color: var(--green);
+  background-color: #1c116d;
   align-items: center;
 }
 .inner_navbar {

@@ -7,7 +7,7 @@
   font-size: 50px;
   line-height: 72px;
   font-weight: 700;
-  color: #2c6b77;
+  color: #1b116d;
   text-align: center;
 }
 .card_container {
@@ -31,13 +31,13 @@
 .testimonal_content h4 {
   width: 30vw;
   margin: 0 auto;
-  color: #218b8a;
+  color: #1b116d;
   text-align: center;
 }
 .testimonal_content h5 {
   width: 30vw;
   margin: 0 auto;
-  color: #484b5a;
+  color: #00429b;
   text-align: center;
 }
 .testimonal_content h6 {

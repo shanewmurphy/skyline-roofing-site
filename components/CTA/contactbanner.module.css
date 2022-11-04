@@ -2,7 +2,7 @@
   display: flex;
   width: 90vw;
   margin: 0 auto;
-  background-color: #223b40;
+  background-color: #1b116d;
   padding: 40px;
   border-radius: 12px;
   margin-bottom: 125px;
@@ -10,27 +10,34 @@
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .main_container h4 {
-  font-weight: 500;
+  font-weight: 600;
   color: white;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 42px;
   margin: 0;
 }
 .main_container h5 {
-  font-weight: 600;
+  font-weight: 500;
   color: white;
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 34px;
+  line-height: 32px;
 }
 .main_container h6 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: white;
   margin: 0;
 }
+.main_container span {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+}
 a.email_link {
   font-size: 24px;
-  color: #a5d874;
+  font-weight: 500;
+  color: #00b9c4;
 }
 a.email_link:hover {
   color: white;
@@ -46,6 +53,33 @@ a.email_link:hover {
   background-image: url("../../public/Email_icon.svg");
   background-repeat: no-repeat;
   background-position: top center;
+}
+@media screen and (max-width: 1170px) {
+  .main_container h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .main_container h6 {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .main_container h4 {
+    font-size: 36px;
+  }
+  .main_container h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
 }
 @media screen and (max-width: 480px) {
   .icon_call {

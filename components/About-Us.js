@@ -26,7 +26,7 @@ export default function AboutUs() {
             <Image
               className={styles.content_image}
               showSkeleton
-              src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1666779411/Site%20Images/about_us_niweqx.png"
+              src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667570901/Site%20Images/About_Us_B_p98nu4.png"
               height={360}
               width={546}
             />
