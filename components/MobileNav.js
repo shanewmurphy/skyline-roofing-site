@@ -8,8 +8,8 @@ export default function MobileNav() {
         <Navbar
           variant="sticky"
           css={{
-            $$navbarBackgroundColor: "#223b40",
-            $$navbarBlurBackgroundColor: "$colors$green",
+            $$navbarBackgroundColor: "#1b116d",
+            $$navbarBlurBackgroundColor: "#1b116d",
             line: "white",
           }}
         >
@@ -31,7 +31,7 @@ export default function MobileNav() {
             <Navbar.Item>Call Us:</Navbar.Item>
           </Navbar.Content> */}
           <Navbar.Collapse
-            css={{ $$navbarListBlurBackgroundColor: "#223b40", line: "#ffff" }}
+            css={{ $$navbarListBlurBackgroundColor: "#1b116d", line: "#ffff" }}
           >
             <Navbar.CollapseItem>
               <div>
