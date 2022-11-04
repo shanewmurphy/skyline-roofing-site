@@ -1,5 +1,5 @@
 import styles from "./keypoints.module.css";
-import { Grid } from "@nextui-org/react";
+import { Grid, Image } from "@nextui-org/react";
 
 export default function KeyPoints() {
   return (
@@ -21,7 +21,7 @@ export default function KeyPoints() {
             </Grid>
             <Grid xs={12} sm={4}>
               <div className={styles.logo_trustpolit_container}>
-                <img src="/trustpilot_logo.svg" alt="trustpilot logo image" />
+                <Image src="/trustpilot_logo.svg" alt="trustpilot logo image" />
               </div>
             </Grid>
           </Grid.Container>
