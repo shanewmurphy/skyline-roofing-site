@@ -30,7 +30,7 @@ export default function ConservatoryPage() {
                   <Row>
                     <Col>
                       <div className={styles.icon_circle}>
-                        <Image src="/temp_icon.svg" alt="temperature icon" />
+                        <Image src="/Temp_icon.svg" alt="temperature icon" />
                       </div>
                       <div>
                         <p>
@@ -84,7 +84,7 @@ export default function ConservatoryPage() {
               </div>
             </div>
           </Grid>
-          <Spacer x={4} />
+          <Spacer x={3} />
           <Grid xs={12} sm={5} md={5}>
             <Image
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667425620/Site%20Images/Conservatory_img_01_yxxk0n.png"

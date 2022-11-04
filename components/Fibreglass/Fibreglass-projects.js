@@ -26,7 +26,7 @@ export default function FibreglassProjects() {
   return (
     <div>
       <div className={styles.title}>
-        <h3>Our Latest Conservatory Roof Projects</h3>
+        <h3>Our Latest Fibreglass Roof Projects</h3>
       </div>
       <div className={styles.photo_container}>
         <PhotoAlbum layout="masonry" columns={2} photos={photos} />

@@ -8,7 +8,7 @@
 .GRP_container h3 {
   font-size: 40px;
   font-weight: 600;
-  color: #2c6b77;
+  color: #1b116d;
 }
 .GRP_container p {
   color: #484b5a;
@@ -24,7 +24,6 @@
 }
 .card_heading h4 {
   text-align: center;
-  color: pink;
 }
 .card {
   display: flex;
@@ -68,7 +67,7 @@
 .card_styles h3 {
   font-size: 32px;
   font-weight: 600;
-  color: #21a179;
+  color: #1b116d;
   text-align: center;
   margin-top: 16px;
 }

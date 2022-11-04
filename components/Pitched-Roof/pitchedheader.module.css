@@ -1,18 +1,18 @@
 .container {
   width: 100vw;
-  background-color: var(--green);
+  background-color: #1b116d;
   padding: 20px 65px 90px 65px;
 }
 .container h5 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 0;
-  color: #a5d874;
+  color: #0093c3;
 }
 .container h2 {
   font-size: 65px;
   font-weight: 800;
-  color: #21a179;
+  color: white;
   line-height: 70px;
   margin-bottom: var(--margin-bottom-16);
 }

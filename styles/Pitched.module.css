@@ -7,7 +7,7 @@
 .pitched_roof_container h3 {
   font-size: 40px;
   font-weight: 600;
-  color: #21a179;
+  color: #1b116d;
 }
 .pitched_roof_container p {
   font-size: 16px;
@@ -25,7 +25,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 32px;
-  color: #484b5a;
+  color: #1b116d;
   margin-bottom: 125px;
 }
 @media screen and (max-width: 480px) {
