@@ -59,7 +59,7 @@ export default function ConservatoryPage() {
                   <Row>
                     <Col>
                       <div className={styles.icon_circle}>
-                        <img src="/guarantee_icon.svg" alt="icon" />
+                        <Image src="/guarantee_icon.svg" alt="icon" />
                       </div>
                       <div>
                         <p>
@@ -90,6 +90,7 @@ export default function ConservatoryPage() {
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667425620/Site%20Images/Conservatory_img_01_yxxk0n.png"
               height={589}
               width={530}
+              alt="Skyline Roofing, Cork, Ireland"
             />
           </Grid>
         </Grid.Container>

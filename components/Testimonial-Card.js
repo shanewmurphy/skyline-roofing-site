@@ -97,7 +97,12 @@ export default function TestimonialCard() {
                         <h6>{testimonals.Date}</h6>
                       </div>
                       <div className={styles.trustpilot_logo_container}>
-                        <Image src={testimonals.url} width={114} height={28} />
+                        <Image
+                          src={testimonals.url}
+                          width={114}
+                          height={28}
+                          alt="Trustpilot Logo"
+                        />
                       </div>
                     </div>
                   </div>
