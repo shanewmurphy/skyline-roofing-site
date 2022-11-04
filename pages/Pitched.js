@@ -45,6 +45,7 @@ export default function PitchedRoof() {
                 src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667305575/Site%20Images/Pitched_roof_gbhen4.png"
                 height={450}
                 width={530}
+                alt="Skyline Roofing, Pitched Roofing, Cork, Ireland"
               />
             </Grid>
           </Grid.Container>

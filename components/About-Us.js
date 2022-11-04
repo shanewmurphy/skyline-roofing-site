@@ -29,6 +29,7 @@ export default function AboutUs() {
               src="https://res.cloudinary.com/dhdrlpifx/image/upload/v1667570901/Site%20Images/About_Us_B_p98nu4.png"
               height={360}
               width={546}
+              alt="Skyline Roofing, Cork, Ireland"
             />
           </Grid>
         </Grid.Container>

@@ -30,7 +30,7 @@ export default function ConservatoryPage() {
                   <Row>
                     <Col>
                       <div className={styles.icon_circle}>
-                        <img src="/temp_icon.svg" alt="temperature icon" />
+                        <Image src="/temp_icon.svg" alt="temperature icon" />
                       </div>
                       <div>
                         <p>
@@ -42,7 +42,7 @@ export default function ConservatoryPage() {
                     <Spacer x={2} />
                     <Col>
                       <div className={styles.icon_circle}>
-                        <img src="/Calender_icon.svg" alt="calender icon" />
+                        <Image src="/Calender_icon.svg" alt="calender icon" />
                       </div>
                       <div>
                         <p>
@@ -71,7 +71,7 @@ export default function ConservatoryPage() {
                     <Spacer x={2} />
                     <Col>
                       <div className={styles.icon_circle}>
-                        <img src="Energy_icon.svg" alt="Energy icon" />
+                        <Image src="Energy_icon.svg" alt="Energy icon" />
                       </div>
                       <div>
                         <p>

@@ -18,10 +18,10 @@ export default function HeroFibreglass() {
                 </p>
                 <p>
                   Fibreglass is much more durable than felt and stronger too. It
-                  has no seams, so it's less likely to fail and let water in,
-                  and it's relatively easy for a professional to repair if
-                  damaged. The benefits of fibreglass roofing for the consumer
-                  are its durability, longevity and high performance.
+                  has no seams, so its less likely to fail and let water in, and
+                  its relatively easy for a professional to repair if damaged.
+                  The benefits of fibreglass roofing for the consumer are its
+                  durability, longevity and high performance.
                 </p>
               </div>
             </Grid>

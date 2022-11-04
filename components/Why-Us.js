@@ -12,7 +12,7 @@ export default function WhyUs() {
                 <h6>Why Choose Us</h6>
                 <h2>Few reasons to choose our company</h2>
                 <p>
-                  At Skyline Roofing and Building, our focus it’s really more of
+                  At Skyline Roofing and Building, our focus its really more of
                   an obsession is to deliver the very best experience and
                   results every single time. We use the latest building science
                   techniques and then use our own team of installation experts
@@ -69,6 +69,7 @@ export default function WhyUs() {
                 width={538}
                 height={475}
                 objectFit="scale-down"
+                alt="Skyline Roofing. Cork Ireland"
               />
             </Grid>
           </Grid.Container>
